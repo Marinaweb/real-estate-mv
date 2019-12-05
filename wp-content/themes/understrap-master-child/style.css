@@ -1,0 +1,147 @@
+/*
+ Theme Name:   Understrap Master Child
+ Description:  Understrap Master Child theme
+ Template:     understrap-master
+ Author:       Vardovskaia Marina
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+*/
+
+
+.site-main h1 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+.slick-dots {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 25px 0;
+}
+.slick-dots li {
+	font-size: 0;
+	margin-right: 10px;
+	width: 12px;
+}
+.slick-dots li button {
+	width: 12px;
+	height: 12px;	
+	padding: 0;
+}
+.table_realty {
+	color: white;
+}
+.table_realty a {
+	color: #9c9c9c;
+}
+.table_realty a:hover {
+    color: #8affb4;
+	text-decoration: underline;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.city_title {
+	margin-bottom: 40px;
+}
+.realty_wrap {
+	margin-top: 50px;
+}
+.realty_item h2 {
+	font-size: 20px;
+	margin: 20px 0;
+}
+.realty_item {
+	text-align: center;
+}
+.realty_meta li span {
+	font-weight: 700;
+}
+.realty_meta a {
+	color: black;
+}
+.realty_meta a:hover {
+	color: #5533ff;
+}
+.realty_item_img {
+  	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	height: 145px;
+	overflow: hidden;
+	   -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -webkit-box-pack: center;
+       -ms-flex-pack: center;
+     justify-content: center;
+	-webkit-box-align: center;
+       -ms-flex-align: center;
+          align-items: center;
+}
+.city_item_img,
+.wppb-post-grid-img a {
+  	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+       -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -webkit-box-pack: center;
+       -ms-flex-pack: center;
+     justify-content: center;
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+          align-items: center;
+}
+.wppb-post-grid-img a {
+	height: 170px;
+}
+.city_item h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.list_title {
+	text-align: center;
+}
+.home .realty_wrap {
+    margin-top: 0;
+}
+.site-info {
+	display: none;
+}
+
+.home .acf-field.acf-field-image.acf-field-5de81015245b0,
+.home .acf-field.acf-field-text.acf-field-5de80ffa50b22{
+	display: block;
+}
+#form_acf h2 {
+	text-align: center;
+}
+.acf-form-submit .acf-button {
+	background: #23cf5f;
+    border: none;
+    margin: 40px auto;
+    width: 250px;
+    height: 45px;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#acf-form input {
+	border: 1px solid;
+}
